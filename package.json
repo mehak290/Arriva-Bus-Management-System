@@ -1,0 +1,21 @@
+{
+  "name": "rest-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.10.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "graphql": "^16.8.1",
+    "json-server": "0.17.3",
+    "node-fetch": "^2.6.1",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-ws": "^5.14.0",
+    "ws": "^8.16.0",
+    "@graphql-tools/schema": "^10.0.3",
+    "http": "0.0.1-security"
+  }
+}
